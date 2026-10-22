@@ -380,7 +380,7 @@ export function resolvePackagedLinuxExecutable(
         });
 
     for (const directory of unpackedDirectories) {
-        for (const executableName of ['IPTVnator', 'iptvnator']) {
+        for (const executableName of ['Matchday', 'matchday']) {
             const candidate = join(
                 executablesRoot,
                 directory.name,

@@ -41,7 +41,7 @@ import {
 } from './app/services/playlist-open-request';
 import { EMBEDDED_MPV_FRAME_COPY, store } from './app/services/store.service';
 
-app.setName('iptvnator');
+app.setName('matchday');
 
 traceStartupPhase('compile-cache', () => readCompileCacheOutcome());
 // Before anything can open the shared database connection.

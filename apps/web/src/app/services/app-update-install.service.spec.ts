@@ -12,7 +12,7 @@ const BASE_STATUS: ElectronBridgeAppUpdateStatus = {
     currentVersion: '0.23.0',
     status: ELECTRON_BRIDGE_APP_UPDATE_STATUSES.Idle,
     supportedSelfUpdate: true,
-    manualDownloadUrl: 'https://github.com/4gray/iptvnator/releases/latest',
+    manualDownloadUrl: 'https://github.com/MarwanMoh11/matchday/releases/latest',
     channel: 'stable',
     installedChannel: 'stable',
 };

@@ -69,7 +69,7 @@ describe('path-utils', () => {
         process.env[IPTVNATOR_DATA_DIR_ENV] = '   ';
 
         expect(getIptvnatorDataRoot()).toBe(
-            join(tempRoot, 'home', '.iptvnator')
+            join(tempRoot, 'home', '.matchday')
         );
     });
 
@@ -84,7 +84,7 @@ describe('path-utils', () => {
     it('falls back to ~/.iptvnator when the env override is blank', () => {
         process.env[IPTVNATOR_E2E_DATA_DIR_ENV] = '   ';
 
-        const expectedRoot = join(tempRoot, 'home', '.iptvnator');
+        const expectedRoot = join(tempRoot, 'home', '.matchday');
 
         expect(getIptvnatorDataRoot()).toBe(expectedRoot);
         expect(existsSync(expectedRoot)).toBe(true);

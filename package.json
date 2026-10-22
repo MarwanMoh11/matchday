@@ -5,8 +5,8 @@
         "node": "^22.22.3 || ^24.15.0"
     },
     "license": "MIT",
-    "description": "IPTV player application.",
-    "homepage": "https://github.com/4gray/iptvnator",
+    "description": "Football-first IPTV player, a fork of IPTVnator.",
+    "homepage": "https://github.com/MarwanMoh11/matchday",
     "author": {
         "name": "4gray",
         "email": "fourgray@proton.me"

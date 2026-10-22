@@ -1,7 +1,7 @@
 {
-    "name": "IPTVnator",
-    "description": "IPTVnator is a tool to watch and manage your IPTV playlists.",
-    "short_name": "IPTVnator",
+    "name": "Matchday",
+    "description": "Matchday is a football-first IPTV player, built on IPTVnator.",
+    "short_name": "Matchday",
     "theme_color": "#1b1c1c",
     "background_color": "#1b1c1c",
     "display": "standalone",

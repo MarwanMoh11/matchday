@@ -38,7 +38,7 @@ function createPackageFixture(): PackageFixture {
         join(tmpdir(), 'iptvnator-packaged-fixture-source-')
     );
     temporaryDirectories.add(packageRoot);
-    const executablePath = join(packageRoot, 'IPTVnator');
+    const executablePath = join(packageRoot, 'Matchday');
     const nativeDir = join(
         packageRoot,
         'resources',

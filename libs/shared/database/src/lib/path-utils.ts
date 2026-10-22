@@ -31,7 +31,7 @@ export function getIptvnatorDataRoot(): string {
         return ensureDirectory(dataDir);
     }
 
-    return ensureDirectory(join(homedir(), '.iptvnator'));
+    return ensureDirectory(join(homedir(), '.matchday'));
 }
 
 export function getIptvnatorDatabaseDirectory(): string {

@@ -1,6 +1,6 @@
 {
-    "appId": "com.fourgray.iptvnator",
-    "productName": "IPTVnator",
+    "appId": "com.marwanmoh11.matchday",
+    "productName": "Matchday",
     "artifactName": "${name}-${version}-${os}-${arch}.${ext}",
     "fileAssociations": [
         {
@@ -21,8 +21,8 @@
     "publish": [
         {
             "provider": "github",
-            "owner": "4gray",
-            "repo": "iptvnator"
+            "owner": "MarwanMoh11",
+            "repo": "matchday"
         }
     ],
     "directories": {
@@ -52,9 +52,9 @@
         "**/embedded-mpv-runtime.json"
     ],
     "extraMetadata": {
-        "name": "iptvnator",
-        "productName": "IPTVnator",
-        "desktopName": "iptvnator",
+        "name": "matchday",
+        "productName": "Matchday",
+        "desktopName": "matchday",
         "main": "electron-backend/main.js"
     },
     "extraResources": ["dist/apps/electron-backend/workers"],
@@ -80,7 +80,7 @@
     },
     "linux": {
         "category": "Video",
-        "executableName": "iptvnator",
+        "executableName": "matchday",
         "executableArgs": ["--ozone-platform=x11"],
         "target": [
             {
@@ -114,9 +114,9 @@
     "appImage": {
         "desktop": {
             "entry": {
-                "X-AppImage-Name": "IPTVnator",
-                "X-AppImage-Homepage": "https://github.com/4gray/iptvnator",
-                "X-AppImage-UpdateURL": "https://github.com/4gray/iptvnator"
+                "X-AppImage-Name": "Matchday",
+                "X-AppImage-Homepage": "https://github.com/MarwanMoh11/matchday",
+                "X-AppImage-UpdateURL": "https://github.com/MarwanMoh11/matchday"
             }
         }
     },
